@@ -1,0 +1,33 @@
+1. Öffne "Chat Creator.html" und gestalte deinen eigenen Chat.
+
+   Achte darauf, dass du zu Beginn ein Twitch-Channel in das Feld "Twitch-Kanäle" hinzufügst und verbindest.
+
+   Du kannst direkt zu Beginn deinen eigenen Channel verbinden und auf deinem Twitch-Kanal den Chat zum Testen nutzen.
+
+   Andernfalls kannst du auch den Channel eines größeren Streamers verbinden, dessen Chat zurzeit aktiv genutzt wird, um einfacher gestalten zu können.
+
+   Beim Speichern wird nur der Channel genutzt, der im Feld "Twitch-Kanal" eingetragen steht.
+
+2. Speichere die Settings deines Chats ab, indem du den grünen "Speichern"-Button unten rechts klickst.
+
+   Sollte dein Browser die Datei als unsicher melden, liegt es daran, dass dies eine JavaScript-Datei ist.
+
+   Diese ist jedoch völlig gefahrlos. Zudem ist der Inhalt der Datei frei einsehbar.
+
+3. Verschiebe die "settings.js"-Datei in den Ordner "Chat Fertig -> settings" und ersetze die bereits bestehende "settings.js"-Datei.
+
+   Achte darauf, dass der Name der Datei genau "settings.js" ist.
+
+4. Kopiere den Ordner "Chat Fertig" an einen Ort, der für dich leichter zu finden ist.
+
+   Außerdem kann der Ordner frei umbenannt werden (nicht jedoch der Ordner "settings").
+
+5. Öffne deine Streaming-Software (OBS / Streamlabs Desktop / etc.) und füge der gewünschten Szene eine neue Browser-Quelle hinzu.
+
+   Setze einen Haken bei "Lokale Datei" und verlinke die Browser-Quelle zur "Chat.html"-Datei, die sich in dem Chat-Ordner befindet.
+
+   Wähle die gewünschte Breite und Höhe des Chats.
+
+   Achte darauf, dass das Feld "Benutzerdefinierte CSS" leer ist.
+
+6. Das war's! Versuche nun auf dem vorher angegebenen Channel eine Nachricht zu schicken. 
